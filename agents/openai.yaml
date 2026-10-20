@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mihomo"
+  short_description: "Install, configure, run, and troubleshoot mihomo"
+  default_prompt: "Use $mihomo to install the stable mihomo core and validate my configuration."
+
+policy:
+  allow_implicit_invocation: true

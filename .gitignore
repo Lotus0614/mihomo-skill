@@ -1,0 +1,22 @@
+# Local runtime state created by scripts/mihomo_ctl.py init
+# Contains: the downloaded core binary (~60 MB per platform),
+#           config.yaml (controller secret + subscription URL),
+#           providers/subscription.yaml (node credentials),
+#           cache.db, mihomo.log, PID/runtime files.
+# Everything here is machine-specific and must never be committed.
+.mihomo/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
